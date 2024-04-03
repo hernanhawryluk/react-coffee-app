@@ -1,6 +1,11 @@
-import React, { useEffect, useState } from "react";
+import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Toaster } from "react-hot-toast";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+import Home from "./pages/Home/Home";
 
 function App() {
   useEffect(() => {
@@ -14,7 +19,16 @@ function App() {
 
   return (
     <>
-      <p className="">Click on the Vite and React logos to learn more</p>
+      <Navbar />
+      <BrowserRouter>
+        <main className="">
+          <Toaster position="bottom-right" reverseOrder={false} />
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </main>
+      </BrowserRouter>
+      <Footer />
     </>
   );
 }

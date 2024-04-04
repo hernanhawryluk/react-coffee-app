@@ -25,7 +25,7 @@ export default function Navbar() {
     <header className="bg-gradient-to-r from-secondary to-secondary/90">
       <nav className="container flex justify-between items-center">
         <div className="flex gap-2 items-center">
-          <img src={logo} alt="Anteiku Logo" className="h-14 my-2" />
+          <img src={logo} alt="Anteiku Logo" className="h-14 my-3" />
           <a
             href="#"
             className="text-4xl font-bold text-white font-cursive tracking-wide"

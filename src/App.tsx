@@ -21,12 +21,10 @@ function App() {
     <>
       <Navbar />
       <BrowserRouter>
-        <>
-          <Toaster position="bottom-right" reverseOrder={false} />
-          <Routes>
-            <Route path="/" element={<Home />} />
-          </Routes>
-        </>
+        <Toaster position="bottom-right" reverseOrder={false} />
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
       </BrowserRouter>
       <Footer />
     </>

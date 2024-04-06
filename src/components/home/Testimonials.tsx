@@ -1,8 +1,8 @@
 import Slider from "react-slick";
 import testimonial1 from "../../assets/testimonials-1.webp";
-import testimonial2 from "../../assets/testimonials-2.png";
-import testimonial3 from "../../assets/testimonials-3.png";
-import testimonial4 from "../../assets/testimonials-4.png";
+import testimonial2 from "../../assets/testimonials-2.jpg";
+import testimonial3 from "../../assets/testimonials-3.jpg";
+import testimonial4 from "../../assets/testimonials-4.jpg";
 
 const testimonalData = [
   {

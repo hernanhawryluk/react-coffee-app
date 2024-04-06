@@ -43,7 +43,7 @@ const Services = () => {
                 key={index}
                 data-aos="fade-up"
                 data-aos-delay={data.aosDelay}
-                className="group rounded-2xl bg-white hover:bg-primary hover:text-white shadow-xl transition max-w-[300px] relative"
+                className="group rounded-2xl bg-white hover:bg-primary hover:text-white shadow-xl transition duration-300 max-w-[300px] relative"
               >
                 <div className="h-[122px]">
                   <img

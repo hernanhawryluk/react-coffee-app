@@ -91,7 +91,7 @@ const Testimonials = () => {
             {testimonalData.map((data) => {
               return (
                 <div key={data.id} className="my-6">
-                  <div className="flex flex-col gap-4 shadow-lg py-8 px-6 mx-4 roudned-xl bg-primary/10 relative min-h-[300px]">
+                  <div className="flex flex-col gap-4 shadow-lg py-8 px-6 mx-4 roudned-xl bg-primary/10 relative h-[300px]">
                     <div className="mb-4">
                       <img
                         src={data.img}
@@ -100,7 +100,7 @@ const Testimonials = () => {
                       />
                     </div>
 
-                    <div className="flex flex-col gap-4 my-auto">
+                    <div className="flex flex-1 flex-col gap-4 justify-between py-2">
                       <p className="text-xs text-gray-500">{data.review}</p>
                       <h2 className="text-3xl font-bold text-black/60 font-cursive">
                         {data.name}

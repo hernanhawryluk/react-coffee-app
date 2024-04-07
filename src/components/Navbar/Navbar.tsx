@@ -1,7 +1,7 @@
 import { FaCoffee } from "react-icons/fa";
 import logo from "../../assets/logo.png";
 
-const navigation = [
+export const navigation = [
   {
     name: "Home",
     path: "/",

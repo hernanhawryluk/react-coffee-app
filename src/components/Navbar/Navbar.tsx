@@ -24,16 +24,21 @@ export default function Navbar() {
   return (
     <header className="bg-gradient-to-r from-secondary to-secondary/90">
       <nav className="container flex justify-between items-center">
-        <div className="flex gap-2 items-center">
-          <img src={logo} alt="Anteiku Logo" className="h-14 my-3" />
+        <div data-aos="fade-down" data-aos-once="true">
           <a
             href="#"
-            className="text-4xl font-bold text-white font-cursive tracking-wide"
+            className="flex items-center gap-2 text-4xl font-bold text-white font-cursive tracking-wide"
           >
+            <img src={logo} alt="Anteiku Logo" className="h-14 my-3" />
             Anteiku Coffee Shop
           </a>
         </div>
-        <div className="flex items-center gap-7 text-white/80">
+        <div
+          data-aos="fade-down"
+          data-aos-once="true"
+          data-aos-delay="300"
+          className="flex items-center gap-7 text-white/80"
+        >
           <ul className="flex gap-6">
             {navigation.map((data) => (
               <li

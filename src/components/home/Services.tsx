@@ -36,7 +36,7 @@ const Services = () => {
             Best Coffee For You
           </h1>
         </div>
-        <div className="flex gap-14 md:gap-5 justify-center">
+        <div className="flex justify-evenly">
           {services.map((data, index) => {
             return (
               <div

@@ -7,14 +7,14 @@ const backgroundStyle = {
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
-  height: "400px",
+  height: "1000%",
   width: "100%",
 };
 
 export default function Footer() {
   return (
     <footer style={backgroundStyle} className="text-white">
-      <span className="bg-black/40 min-h-[400px]">
+      <span className="bg-black/40 min-h-[340px]">
         <div className="container grid md:grid-cols-3 pb-20 pt-5">
           <div className="py-8 px-4">
             <a

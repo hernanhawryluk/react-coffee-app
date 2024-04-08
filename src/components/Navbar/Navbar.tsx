@@ -1,5 +1,6 @@
-import { FaCoffee } from "react-icons/fa";
 import logo from "../../assets/logo.png";
+import MenuDesktop from "./MenuDestop";
+import MenuMobil from "./MenuMobil";
 
 export const navigation = [
   {
@@ -33,27 +34,8 @@ export default function Navbar() {
             Anteiku Coffee Shop
           </a>
         </div>
-        <div
-          data-aos="fade-down"
-          data-aos-once="true"
-          data-aos-delay="300"
-          className="flex items-center gap-7 text-white/80"
-        >
-          <ul className="flex gap-6">
-            {navigation.map((data) => (
-              <li
-                key={data.name}
-                className="hover:scale-105 hover:text-white/90 active:scale-95 transition"
-              >
-                <a href={data.path}>{data.name}</a>
-              </li>
-            ))}
-          </ul>
-          <button className="flex items-center gap-3 bg-primary/70 px-4 py-2 rounded-full hover:scale-105 hover:text-white/90 active:scale-95 transition cursor-pointer">
-            Order
-            <FaCoffee className="text-xl" />
-          </button>
-        </div>
+        <MenuDesktop navigation={navigation} />
+        <MenuMobil navigation={navigation} />
       </nav>
     </header>
   );

@@ -81,12 +81,16 @@ const Testimonials = () => {
   return (
     <section className="py-14 mb-10">
       <div className="container">
-        <div className="text-center mb-10">
+        <div
+          data-aos="fade-up"
+          data-aos-once="true"
+          className="text-center mb-10"
+        >
           <h1 className="text-7xl font-bold font-cursive text-gray-800">
             Testimonials
           </h1>
         </div>
-        <div>
+        <div data-aos="zoom-in" data-aos-delay="300" data-aos-once="true">
           <Slider {...sliderSettings}>
             {testimonalData.map((data) => {
               return (

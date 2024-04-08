@@ -29,14 +29,14 @@ const AppStore = () => {
                 <img
                   src={appStoreImg}
                   alt="App Store Image"
-                  className="max-2-[150px] sm:max-w-[120px] md:max-w-[200px]"
+                  className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px]"
                 />
               </a>
               <a href="#">
                 <img
                   src={playStoreImg}
                   alt="Play Store Image"
-                  className="max-2-[150px] sm:max-w-[120px] md:max-w-[200px]"
+                  className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px]"
                 />
               </a>
             </div>

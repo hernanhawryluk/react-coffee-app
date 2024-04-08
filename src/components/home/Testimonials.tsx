@@ -86,7 +86,7 @@ const Testimonials = () => {
           data-aos-once="true"
           className="text-center mb-10"
         >
-          <h1 className="text-7xl font-bold font-cursive text-gray-800">
+          <h1 className="text-6xl sm:text-7xl font-bold font-cursive text-gray-800">
             Testimonials
           </h1>
         </div>
@@ -95,7 +95,7 @@ const Testimonials = () => {
             {testimonalData.map((data) => {
               return (
                 <div key={data.id} className="my-6">
-                  <div className="flex flex-col gap-4 shadow-lg py-8 px-6 mx-4 roudned-xl bg-primary/10 relative h-[300px]">
+                  <div className="flex flex-col gap-4 shadow-lg py-8 px-6 mx-4 rounded-xl bg-primary/10 relative h-[300px]">
                     <div className="mb-4">
                       <img
                         src={data.img}

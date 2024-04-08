@@ -19,7 +19,7 @@ export default function Footer() {
           <div className="py-8 px-4">
             <a
               href="#"
-              className="font-semibold tracking-widest text-2xl sm:text-4xl font-cursive"
+              className="font-semibold tracking-widest text-3xl sm:text-4xl font-cursive"
             >
               Ateiku Coffee Shop
             </a>

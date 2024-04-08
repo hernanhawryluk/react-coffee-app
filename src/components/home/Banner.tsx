@@ -18,8 +18,12 @@ const Banner = () => {
   return (
     <section style={bgImage}>
       <div className="container">
-        <div className="flex gap-6">
-          <div data-aos="zoom-in" data-aos-once="true">
+        <div className="flex flex-col sm:flex-row gap-6">
+          <div
+            className="hidden sm:block"
+            data-aos="zoom-in"
+            data-aos-once="true"
+          >
             <img
               src={bannerImg}
               alt="Banner Image"
@@ -30,7 +34,7 @@ const Banner = () => {
             <h1
               data-aos="fade-up"
               data-aos-once="true"
-              className="text-3xl sm:text-6xl font-bold font-cursive"
+              className="text-5xl sm:text-6xl font-bold font-cursive mt-10 sm:mt-0 text-center sm:text-start"
             >
               Premium Blend Coffee
             </h1>
@@ -43,7 +47,7 @@ const Banner = () => {
               shop is the best coffee shop in town for you to enjoy the best
               coffee in town.
             </p>
-            <div className="grid grid-cols-2 gap-6">
+            <div className="grid grid-cols-2 gap-6 mb-10 sm:mb-0">
               <div className="space-y-5">
                 <div
                   data-aos="fade-up"
